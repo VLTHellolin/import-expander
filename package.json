@@ -1,0 +1,25 @@
+{
+  "name": "import-expander",
+  "version": "1.0.0",
+  "description": "Expand your @import statements in Stylus.",
+  "license": "MIT",
+  "author": "hellolin",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "keywords": [
+    "stylus",
+    "import",
+    "css"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "pnpm build && node ./test/index.js",
+    "pub": "pnpm build && npm publish"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "mkdirp": "^3.0.1",
+    "typescript": "^5.4.5"
+  }
+}

@@ -12,6 +12,10 @@
     "import",
     "css"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VLTHellolin/import-expander.git"
+  },
   "scripts": {
     "build": "tsc",
     "test": "pnpm build && node ./test/index.js",
